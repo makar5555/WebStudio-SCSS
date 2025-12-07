@@ -1,0 +1,34 @@
+
+.doing {
+  padding-top: 94px;
+  background-color: var(--about-us);
+  padding-bottom: 94px;
+}
+.doing__title {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.doing__list {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  position: relative;
+}
+.doing__img {
+  width: 370px;
+  height: 294px;
+}
+.doing__desc {
+  text-align: center;
+  text-wrap: nowrap;
+  padding-block: 27px;
+  background-color: var(--doing-desc);
+  color: var(--about-us);
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+}

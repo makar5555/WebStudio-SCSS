@@ -1,0 +1,77 @@
+.header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid;
+  border-bottom-color: rgb(238, 238, 238);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: rgb(33, 150, 243);
+  padding-right: 93px;
+  letter-spacing: 0.03em;
+}
+.header-span {
+  color: rgb(33, 33, 33);
+}
+.header__list {
+  display: flex;
+  gap: 50px;
+}
+.header__wraper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__link:hover {
+  color: rgb(33, 150, 243);
+  transition: all 0.25s;
+}
+.header__link {
+  font-weight: 500;
+  transition: all 0.25s;
+  color: rgb(33, 33, 33);
+  position: relative;
+  display: block;
+  font-weight: 500;
+}
+.header__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background-color: rgb(33, 150, 243);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: bottom;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.header__link:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.header__info-list {
+  padding-left: 0;
+  display: flex;
+  gap: 50px;
+}
+.header__info-link:hover {
+  color: rgb(33, 150, 243);
+  transition: all 0.25s;
+}
+.header__span:hover {
+  fill: rgb(33, 150, 243);
+}
+.header__info-link {
+  color: rgb(117, 117, 117);
+  transition: all 0.25s;
+}

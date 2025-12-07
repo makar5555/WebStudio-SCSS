@@ -1,0 +1,28 @@
+
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.client__title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.client__list {
+  display: flex;
+  gap: 30px;
+}
+.client__item {
+  padding: 16px 32px;
+  border: 1px solid var(--client-item-border);
+  border-radius: 4px;
+  width: 106px;
+}
+.client__icon {
+  padding: 7px 32px;
+  fill: rgb(117, 117, 117);
+}
+.client__icon:hover {
+  fill: rgb(33, 150, 243);
+}

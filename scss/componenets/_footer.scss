@@ -1,0 +1,55 @@
+
+.footer {
+  background-color: var(--footer-bg);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__container {
+  /*flex-direction: column;*/
+  display: flex;
+}
+.footer__logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-brand);
+  font-family: var(--secondary-font);
+  padding-bottom: 20px;
+}
+.footer__logo-span {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--about-us);
+  font-family: var(--secondary-font);
+}
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  font-style: normal;
+}
+.footer__item {
+  color: var(--about-us);
+  line-height: 24px;
+  padding-top: 9px;
+}
+.footer__link {
+  color: var(--footer-text);
+  line-height: 24px;
+}
+.footer__contacts {
+  display: flex;
+}
+.footer__medial__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* if you reade his text, its work*/

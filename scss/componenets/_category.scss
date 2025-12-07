@@ -1,0 +1,38 @@
+
+.category {
+  padding-top: 94px;
+}
+.category__list {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  gap: 8px;
+}
+.category__button {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--titles-color);
+  line-height: 26px;
+  background-color: var(--team-background);
+  border-width: 0;
+  border-radius: 4px;
+  padding-block: 6px;
+  transition: all 0.25s;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+.category__button:hover {
+  color: var(--about-us);
+  background-color: var(--color-brand);
+  transition: all 0.25s;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+.category__button {
+  text-align: center;
+  padding-right: 22px;
+  padding-left: 22px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
