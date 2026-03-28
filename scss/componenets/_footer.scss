@@ -7,6 +7,7 @@
 .footer__container {
   /*flex-direction: column;*/
   display: flex;
+  justify-content: space-between;
 }
 .footer__logo {
   font-size: 26px;
@@ -50,6 +51,7 @@
   line-height: 100%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--footer-subtitle);
 }
 
 /* if you reade his text, its work*/

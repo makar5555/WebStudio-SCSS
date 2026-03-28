@@ -19,6 +19,9 @@
   line-height: 60px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  @media (max-width:320px) {
+    font-size: 26px;
+  }
 }
 
 .hero__button {

@@ -80,6 +80,7 @@ table {
   --modal-bg: rgba(255, 255, 255, 1);
   --client-item-border: rgba(175, 177, 184, 1);
   --button-shadow: rgba(0, 0, 0, 0.15);
+  --footer-subtitle: rgba(255, 255 ,255, 1);
 }
 
 :root {
@@ -212,6 +213,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+@media (max-width: 320px) {
+  .hero__title {
+    font-size: 26px;
+  }
+}
 
 .hero__button {
   padding: 10px 32px;
@@ -339,6 +345,19 @@ body {
   margin-bottom: 0;
 }
 
+@media (max-width: 1199px) {
+  .details__list {
+    gap: 30px;
+  }
+  .details__item {
+    width: calc(50% - 15px);
+  }
+}
+@media (max-width: 767px) {
+  .details__item {
+    width: 100%;
+  }
+}
 .doing {
   padding-top: 94px;
   background-color: var(--about-us);
@@ -471,10 +490,9 @@ body {
 }
 
 .client__item {
-  padding: 16px 32px;
+  padding: 60px 106px;
   border: 1px solid var(--client-item-border);
   border-radius: 4px;
-  width: 106px;
 }
 
 .client__icon {
@@ -614,6 +632,7 @@ body {
 .footer__container {
   /*flex-direction: column;*/
   display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -665,6 +684,7 @@ body {
   line-height: 100%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--footer-subtitle);
 }
 
 /* if you reade his text, its work*/
