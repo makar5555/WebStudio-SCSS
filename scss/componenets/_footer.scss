@@ -15,6 +15,7 @@
   color: var(--color-brand);
   font-family: var(--secondary-font);
   padding-bottom: 20px;
+  display: inline-block;
 }
 .footer__logo-span {
   font-size: 26px;
@@ -22,11 +23,7 @@
   color: var(--about-us);
   font-family: var(--secondary-font);
 }
-.footer__address {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
+
 .footer__list {
   display: flex;
   flex-direction: column;
@@ -36,7 +33,6 @@
 .footer__item {
   color: var(--about-us);
   line-height: 24px;
-  padding-top: 9px;
 }
 .footer__link {
   color: var(--footer-text);
