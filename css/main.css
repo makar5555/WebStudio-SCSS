@@ -564,6 +564,7 @@ body {
   flex-basis: 370px;
   height: 404px;
   margin-bottom: 30px;
+  border: 1px rgb(238, 238, 238) inset;
 }
 
 .portfolio__item:hover {
