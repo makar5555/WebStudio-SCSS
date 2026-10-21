@@ -48,17 +48,17 @@
   gap: 10px;
   padding-bottom: 30px;
 }
-.team__medial-item {
-  padding: 12px;
-  border-radius: 100%;
-}
-.team__medial-item:hover {
+.team__medial-link:hover {
   background-color: var(--color-brand);
   color: var(--about-us);
 }
 .team__medial-link {
-  fill: rgb(175, 177, 184);
+  color: rgb(175, 177, 184);
+  border-radius: 100%;
+  padding: 12px;
+  display: block;
+  transition: color 250ms ease-out, background-color 250ms ease-out;
 }
-.team__medial-link:hover .team__medial-icon {
-  fill: white;
+ .team__medial-icon {
+  fill: currentColor;
 }

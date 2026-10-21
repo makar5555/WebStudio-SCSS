@@ -105,8 +105,6 @@ body {
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid;
   border-bottom-color: rgb(238, 238, 238);
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-container {
@@ -136,6 +134,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 .header__link:hover {
@@ -151,6 +150,7 @@ body {
   display: block;
   font-weight: 500;
   letter-spacing: 0.03em;
+  padding-block: 32px;
 }
 
 .header__link::after {
@@ -459,22 +459,21 @@ body {
   padding-bottom: 30px;
 }
 
-.team__medial-item {
-  padding: 12px;
-  border-radius: 100%;
-}
-
-.team__medial-item:hover {
+.team__medial-link:hover {
   background-color: var(--color-brand);
   color: var(--about-us);
 }
 
 .team__medial-link {
-  fill: rgb(175, 177, 184);
+  color: rgb(175, 177, 184);
+  border-radius: 100%;
+  padding: 12px;
+  display: block;
+  transition: color 250ms ease-out, background-color 250ms ease-out;
 }
 
-.team__medial-link:hover .team__medial-icon {
-  fill: white;
+.team__medial-icon {
+  fill: currentColor;
 }
 
 .client {
@@ -495,14 +494,15 @@ body {
 }
 
 .client__item {
-  padding: 60px 106px;
+  padding: 16px 32px;
   border: 1px solid var(--client-item-border);
   border-radius: 4px;
 }
 
 .client__icon {
-  padding: 7px 32px;
-  fill: rgb(117, 117, 117);
+  fill: var(--client-item-border);
+  height: 60px;
+  max-width: 106px;
 }
 
 .client__icon:hover {
@@ -564,7 +564,7 @@ body {
   flex-basis: 370px;
   height: 404px;
   margin-bottom: 30px;
-  border: 1px rgb(238, 238, 238) inset;
+  border: 1px rgb(238, 238, 238) solid;
 }
 
 .portfolio__item:hover {

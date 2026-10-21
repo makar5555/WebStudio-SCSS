@@ -2,8 +2,8 @@
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid;
   border-bottom-color: rgb(238, 238, 238);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  // padding-top: 24px;
+  // padding-bottom: 25px;
 }
 .header-container {
   display: flex;
@@ -28,6 +28,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 .header__link:hover {
   color: rgb(33, 150, 243);
@@ -41,6 +42,7 @@
   display: block;
   font-weight: 500;
   letter-spacing: 0.03em;
+  padding-block: 32px;
 }
 .header__link::after {
   content: "";
